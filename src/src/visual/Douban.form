@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="searchType" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="search" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="searchKey" min="-2" pref="146" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="author" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="subtitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="title" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="publisher" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="binding" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="price" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="authorIntro" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tags" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="bookinfo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="summary" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tsubtitle" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tbinding" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tprice" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tpublisher" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tauthor" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="alt" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="translator" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="pubdate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="pages" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="isbn" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="talt" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tisbn" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tpages" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tpubdate" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ttranslator" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="ttitle" max="32767" attributes="0"/>
+                          <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <Component id="ttags" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="searchHeading" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="searchHeading" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bookinfo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="title" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ttitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="searchKey" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="subtitle" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="tsubtitle" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="alt" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="talt" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ttranslator" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="translator" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="tauthor" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="author" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tpubdate" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="pubdate" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="publisher" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="tpublisher" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tpages" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="pages" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="tprice" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="price" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tisbn" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="isbn" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbinding" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="binding" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" min="-2" pref="136" max="-2" attributes="0"/>
+                  <Component id="summary" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="authorIntro" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="121" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ttags" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tags" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="searchType" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="search" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="432" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="searchHeading">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SERACH"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="searchKey">
+      <Properties>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="search">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="isbn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ISBN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="author">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Author"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="subtitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subtitle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="alt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="translator">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Translator"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="publisher">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Publisher"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pubdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Publish Date"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="binding">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Binding"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="price">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Price"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pages">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pages"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="summary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Summary"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="authorIntro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Author info"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tags">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tags"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ttitle">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="40"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tsubtitle">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tauthor">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tpublisher">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tprice">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbinding">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="talt">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ttranslator">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tpubdate">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tpages">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tisbn">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="columns" type="int" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ttags">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="tauthorintro">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="tsummary">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="40"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="searchType">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="name"/>
+            <StringItem index="1" value="tag"/>
+            <StringItem index="2" value="ID"/>
+            <StringItem index="3" value="ISBN"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bookinfo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BOOK INFO"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
